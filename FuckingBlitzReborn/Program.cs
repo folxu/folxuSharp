@@ -101,7 +101,7 @@ namespace FuckingBlitzReborn
             Game.OnUpdate += BlitzOnUpdate;
             Interrupter.OnPossibleToInterrupt += BlitzOnInterruptableSpell;
 
-            Game.PrintChat("<b><font color=\"#FF00BF\">Fucking</font><font color=\"#FFFF00\">BlitzcrankReborn</font> <font color=\"#F5ECCE\">by</font> <font color=\"#FF0000\">folx</font> </b>");
+            Game.PrintChat("<b><font color=\"#FF00BF\">Fucking</font> <font color=\"#FFFF00\">Blitzcrank Reborn</font> <font color=\"#F5ECCE\">by</font> <font color=\"#FF0000\">folx</font> </b>");
             Game.PrintChat("<b><font color=\"#00FF00\">github.com/folxu/folxuSharp</font></b>");
             Game.PrintChat("<b><font color=\"#8000FF\">GL HF !</font></b>");
 
