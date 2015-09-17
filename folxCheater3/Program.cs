@@ -53,6 +53,10 @@ namespace folxCheater3
             Game.OnUpdate += Game_OnUpdate;
             Game.OnWndProc += Game_OnWndProc;
             Drawing.OnDraw += Drawing_OnDraw;
+            
+            Game.PrintChat("<b><font color=\"#04EECA\">folxu</font> <font color=\"#DC0DA1\">Cheater</font> <font color=\"#FF0000\">3</font> <font color=\"#FFFFFF\">by</font> <font color=\"#FFEB00\">folxu</font> <font color=\"#00FF2F\">Loaded!</font></b>");
+            Game.PrintChat("<b><font color=\"#FFA600\">Working on 5.18</font></b>");
+            Game.PrintChat("<b><font color=\"#FF00F3\">Who is cheating now ? ;D</font></b>");
         }
 
         static void Game_OnGameLoad(EventArgs args)

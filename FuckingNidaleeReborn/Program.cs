@@ -310,9 +310,9 @@ namespace FuckingNidaleeReborn
             //Game_OnGameEnd += Game_OnGameEnd;
             Drawing.OnDraw += Drawing_OnDraw;
             Obj_AI_Base.OnProcessSpellCast += OnProcessSpellCast;
-            Game.PrintChat("<b><font color=\"#FF00BF\">Fucking</font><font color=\"#FFFF00\">NidaleeReborn</font> <font color=\"#F5ECCE\">by</font> <font color=\"#FF0000\">folx</font> </b>");
-            Game.PrintChat("<b><font color=\"#00FF00\">github.com/folxu/folxuSharp</font></b>");
-            Game.PrintChat("<b><font color=\"#8000FF\">GL HF !</font></b>");
+            Game.PrintChat("<b><font color=\"#04EECA\">Fucking</font> <font color=\"#DC0DA1\">Nidalee</font> <font color=\"#FF0000\">Reborn</font> <font color=\"#FFFFFF\">by</font> <font color=\"#FFEB00\">folxu</font> <font color=\"#00FF2F\">Loaded!</font></b>");
+            Game.PrintChat("<b><font color=\"#FFA600\">Working on 5.18</font></b>");
+            Game.PrintChat("<b><font color=\"#FF00F3\">GL HF !</font></b>");
         }
 
         private static void Game_OnGameUpdate(EventArgs args)

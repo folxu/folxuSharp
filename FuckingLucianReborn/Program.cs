@@ -65,6 +65,10 @@ namespace FuckingLucianReborn
             Game.OnUpdate += Game_OnUpdate;
             Orbwalking.AfterAttack += Orbwalking_AfterAttack;
             Drawing.OnDraw += Drawing_OnDraw;
+            
+            Game.PrintChat("<b><font color=\"#04EECA\">Fucking</font> <font color=\"#DC0DA1\">Lucian</font> <font color=\"#FF0000\">Reborn</font> <font color=\"#FFFFFF\">by</font> <font color=\"#FFEB00\">folxu</font> <font color=\"#00FF2F\">Loaded!</font></b>");
+            Game.PrintChat("<b><font color=\"#FFA600\">Working on 5.18</font></b>");
+            Game.PrintChat("<b><font color=\"#FF00F3\">GL HF !</font></b>");
         }
         //Reset Auto Attack After Spells
         private static void oncast(Obj_AI_Base sender, GameObjectProcessSpellCastEventArgs args)
