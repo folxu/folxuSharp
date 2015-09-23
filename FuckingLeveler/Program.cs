@@ -101,7 +101,7 @@ namespace FuckingLeveler
         private static void OnGameLoad(EventArgs args)
         {
             _menuMap = new Dictionary<MenuItem, int>();
-            _menu = new Menu("Universal Leveler", "UniversalLeveler" + ObjectManager.Player.ChampionName, true);
+            _menu = new Menu("FuckingLeveler", "FuckingLeveler" + ObjectManager.Player.ChampionName, true);
             foreach (var entry in DefaultSpellSlotPriorities)
             {
                 MenuItem menuItem = MakeSlider(
@@ -203,9 +203,9 @@ namespace FuckingLeveler
 
         private static void Print(string msg)
         {
-            Game.PrintChat(
-                "<font color='#ff3232'>Universal</font><font color='#d4d4d4'>Leveler:</font> <font color='#FFFFFF'>" +
-                msg + "</font>");
+            Game.PrintChat("<b><font color=\"#04EECA\">Fucking</font> <font color=\"#DC0DA1\">Level</font> <font color=\"#FFFFFF\">Re</font><font color=\"#FFEB00\">Work :D</font> <font color=\"#00FF2F\">Loaded!</font></b>");
+            Game.PrintChat("<b><font color=\"#FFA600\">Working on 5.18 HF</font></b>");
+            Game.PrintChat("<b><font color=\"#FF00F3\">GL HF !</font></b>");
         }
 
         private static MenuItem MakeSlider(string name, string display, int value, int min, int max)
