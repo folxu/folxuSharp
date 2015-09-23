@@ -4,7 +4,7 @@ using System.Linq;
 using LeagueSharp;
 using LeagueSharp.Common;
 
-namespace UniversalLeveler
+namespace FuckingLeveler
 {
     internal static class Program
     {
@@ -222,7 +222,7 @@ namespace UniversalLeveler
 
         public static int GetMinLevel(SpellSlot s)
         {
-            return _menu.SubMenu(s + "extra").GetSlider(s + "extra").GetValue<Slider>().Value;
+            //return _menu.SubMenu(s + "extra").GetSlider(s + "extra").GetValue<Slider>().Value;
         }
     }
 }
