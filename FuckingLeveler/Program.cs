@@ -109,6 +109,7 @@ namespace FuckingLeveler
                 menuItem.ValueChanged += menuItem_ValueChanged;
                 _menu.AddItem(menuItem);
 
+                _menu.AddSubMenu(subMenu);
             }
 
             _activate = new MenuItem("activate", "Start at level?").SetValue(new StringList(new[] { "2", "3", "4" }));
@@ -200,7 +201,7 @@ namespace FuckingLeveler
 
         private static void Print(string msg)
         {
-            Game.PrintChat("<b><font color=\"#04EECA\">Fucking</font> <font color=\"#DC0DA1\">Leveler</font> <font color=\"#FFFFFF\">Re-</font><font color=\"#FFEB00\">Work :D</font> <font color=\"#00FF2F\">Loaded!</font></b>");
+            Game.PrintChat("<b><font color=\"#04EECA\">Fucking</font> <font color=\"#DC0DA1\">Level</font> <font color=\"#FFFFFF\">Re</font><font color=\"#FFEB00\">Work :D</font> <font color=\"#00FF2F\">Loaded!</font></b>");
             Game.PrintChat("<b><font color=\"#FFA600\">Working on 5.18 HF</font></b>");
             Game.PrintChat("<b><font color=\"#FF00F3\">GL HF !</font></b>");
         }
