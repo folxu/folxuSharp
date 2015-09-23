@@ -109,6 +109,8 @@ namespace FuckingLeveler
                 menuItem.ValueChanged += menuItem_ValueChanged;
                 _menu.AddItem(menuItem);
 
+                var subMenu = new Menu(entry.Key + " Extra", entry.Key + "extra");
+                subMenu.AddItem(MakeSlider(entry.Key + "extra", "Level after X (inclusive) ?", 1, 1, 18));
                 _menu.AddSubMenu(subMenu);
             }
 
