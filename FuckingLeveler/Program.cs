@@ -4,7 +4,7 @@ using System.Linq;
 using LeagueSharp;
 using LeagueSharp.Common;
 
-namespace FuckingLeveler
+namespace FuckingLeveler //idk why 
 {
     internal static class Program
     {
