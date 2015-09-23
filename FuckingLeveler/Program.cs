@@ -222,7 +222,7 @@ namespace FuckingLeveler
 
         public static int GetMinLevel(SpellSlot s)
         {
-            //return _menu.SubMenu(s + "extra").GetSlider(s + "extra").GetValue<Slider>().Value;
+            return _menu.SubMenu(s + "extra").GetSlider(s + "extra").GetValue<Slider>().Value;
         }
     }
 }
