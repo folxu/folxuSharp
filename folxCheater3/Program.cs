@@ -76,8 +76,8 @@ namespace folxCheater3
         {
             if (_isDrawing)
             {
-                Drawing.DrawText(_posX, _posY, _isDetecting ? Color.LawnGreen : Color.Red, "Press Delete to toggle detection. Current threshold: {0}", _threshold);
-                Drawing.DrawText(_posX, _posY + 20.0f, Color.AntiqueWhite, "Press End to toggle this drawing.");
+                Drawing.DrawText(_posX, _posY, _isDetecting ? Color.LawnGreen : Color.Red, "Wow ! L# 5.19 Updated ?!: {0}", _threshold);
+                Drawing.DrawText(_posX, _posY + 20.0f, Color.AntiqueWhite, "folxCheater3 5.19 Updated!.");
                 if (_heroList != null)
                 {
                     for (int i = 0; i < _heroList.Count; i++)
@@ -87,7 +87,7 @@ namespace folxCheater3
                 }
                 else
                 {
-                    Drawing.DrawText(_posX, _posY + 40.0f, Color.Aqua, "[5.18]Please wait for the game to load.");
+                    Drawing.DrawText(_posX, _posY + 40.0f, Color.Aqua, "Wow ! L# 5.19 Updated ?");
                 }
             }
         }
